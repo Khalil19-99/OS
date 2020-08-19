@@ -1,1 +1,0 @@
-lrwxrwxrwx 1 root root 5 Mar 20 16:52 /usr/bin/gcc -> gcc-9
