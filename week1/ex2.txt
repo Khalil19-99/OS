@@ -1,0 +1,361 @@
+    1  sudo snap install vlc
+    2  sudo apt install telegram-desktop 
+    3  sudo apt install telegram-desktop
+    4  sudo apt install libreoffice
+    5  ssh
+    6  sudo apt update
+    7  sudo apt install openssh-server
+    8  ssh
+    9  sudo systemctl status
+   10  sudo systemctl status ssh
+   11  sudo ufw allow ssh
+   12  ssh root@10.90.105.113
+   13  ssh root@10.90.105.113 -p 2222
+   14  ssh root@10.90.105.113 -p 77
+   15  ssh root@10.90.105.113 -p 777
+   16  ipa
+   17  ip a
+   18  which ssh
+   19  which sshd
+   20  sudo apt-get remove openssh-client openssh-server
+   21  sudo apt-get install openssh-client openssh-server
+   22  ssh root@10.90.105.113
+   23  ssh -vvv localhost
+   24  sudo systemctl status ssh
+   25  ssh root@10.90.105.113
+   26  ssh root@10.90.105.113 22
+   27  ssh root@10.90.105.113 22 222
+   28  ssh root@10.90.105.113 222
+   29  sudo apt install psiphon
+   30  ssh root@10.90.105.113
+   31  sudo ufw status 
+   32  ssh root@10.90.105.113
+   33  sudo apt install mplayer mplayer-gui
+   34  mplayer <path_to_video_file>
+   35  mplayer <VID_20200614_024957>
+   36  mplayer </home/khalil>
+   37  sudo apt install kmplayer
+   38  sudo apt install libdvdnav4 libdvd-pkg gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg
+   39  apt list --upgradable
+   40  sudo apt install ubuntu-restricted-extras
+   41  apt-get chech
+   42  sudo dpkg-reconfigure libdvd-pkg
+   43  video
+   44  udo apt-get install ubuntu-restricted-extras
+   45  sudo apt install udo
+   46  udo apt-get install ubuntu-restricted-extras
+   47  sudo apt install ubuntu-restricted-extras
+   48  yum -y install http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.nux.noarch.rpm
+   49  sudo apt install http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.nux.noarch.rpm
+   50  sudo apt install http://linuxdownload.adobe.com/adobe-release/adobe-release-x86_64-1.0-1.noarch.rpm
+   51  sudo apt install flash-plugin
+   52  sudo apt install icedtea-web
+   53  sudo apt install vlc smplayer ffmpeg HandBrake-{gui,cli}
+   54  sudo apt install libdvdcss gstreamer{,1}-plugins-ugly gstreamer-plugins-bad-nonfree gstreamer1-plugins-bad-freeworld
+   55  sudo apt install libdvdnav4 libdvd-pkg gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly
+   56  0
+   57  ffmpeg -encoders
+   58  ffmpeg -decoders
+   59  ffmpeg -codecs
+   60  vlc --help
+   61  sudo apt purge kmplayer 
+   62  sudo apt purge mplayer
+   63  gedit
+   64  which vlc
+   65  which --help
+   66  man which
+   67  /snap/bin/vlc --help
+   68  ls /snap
+   69  sudo /snap/bin/vlc --help
+   70  sudo cd /snap
+   71  cd /snap
+   72  cd bin
+   73  ls
+   74  ./vlc
+   75  ls -l
+   76  cd /usr/bin/snap
+   77  cd /usr/bin
+   78  ls
+   79  ls 
+   80  ls | grep snap
+   81  cd snap
+   82  sudo apt purge snap
+   83  snap
+   84  sudo snap
+   85  history
+   86  history | grep snap
+   87  sudo apt install vlc
+   88  cd /usr/snap
+   89  cd /usr/bin/snap
+   90  tree
+   91  ls --help
+   92  cd
+   93  ls -R
+   94  ls / -R | grep snap
+   95  cd /snap
+   96  ls -l
+   97  cd vlc
+   98  ls -l
+   99  cd current
+  100  ls -l
+  101  cd
+  102  sudo apt install vlc
+  103  vlc --version
+  104  ls -l
+  105  vlc VID_20200614_024957.mp4 
+  106  snapd
+  107  apt-cache snap
+  108  apt-cache search snap
+  109  apt-cache search snapd
+  110  sudo apt install snapd
+  111  snap --version
+  112  snap --help
+  113  snap run vlc
+  114  vlc
+  115  which vlc
+  116  cd /usr/snap
+  117  cd /usr/bin
+  118  cd snap
+  119  ./snap
+  120  sudo apt purge vlc
+  121  vlc
+  122  which vlc
+  123  sudo apt update
+  124  sudo apt autoremove
+  125  sudo apt upgrade
+  126  vlc
+  127  snap
+  128  snap run vlc
+  129  which vlc
+  130  vlc
+  131  cd /snap/bin
+  132  ls -l
+  133  sudo snap remove vlc
+  134  vlc
+  135  sudo apt purge snap
+  136  history
+  137  sudo apt purge snap
+  138  sudo apt purge snapd
+  139  ls
+  140  cd
+  141  sudo apt purge snapd
+  142  snap
+  143  ls /snap
+  144  cd /snap 
+  145  vlc
+  146  sudo apt install vlc
+  147  vlc
+  148  sudo install apt-transport-https
+  149  sudo apt install apt-transport-https
+  150  wget https://swupdate.openvpn.net/repos/openvpn-repo-pkg-key.pub
+  151  apt-key add openvpn-repo-pkg-key.pub
+  152  sudo wget https://swupdate.openvpn.net/repos/openvpn-repo-pkg-key.pub
+  153  sudo sudo apt-key add openvpn-repo-pkg-key.pub
+  154  sudo apt-key add openvpn-repo-pkg-key.pub
+  155  wget -O /etc/apt/sources.list.d/openvpn3.list https://swupdate.openvpn.net/community/openvpn3/repos/openvpn3-focal.list
+  156  sudo wget -O /etc/apt/sources.list.d/openvpn3.list https://swupdate.openvpn.net/community/openvpn3/repos/openvpn3-focal.list
+  157  sudo apt update
+  158  sudo apt install openvpn3
+  159  openvpn
+  160  openvpn --help
+  161  sudo openvpn --config ./Downloads/vpngate_public-vpn-165.opengw.net_tcp_443.ovpn 
+  162  clear
+  163  sudo openvpn --config Downloads/vpngate_public-vpn-165.opengw.net_tcp_443.ovpn 
+  164  $ cat > SampleTextFile.txt
+  165  touch ~/Templates/Empty\ Document
+  166  sudo openvpn --config Downloads/vpngate_public-vpn-165.opengw.net_tcp_443.ovpn sudo openvpn --config Downloads/vpngate_public-vpn-165.opengw.net_tcp_443.ovpn 
+  167  sudo openvpn --config Downloads/vpngate_public-vpn-165.opengw.net_tcp_443.ovpn 
+  168  tar -xvJf tor-browser-linux32-6.0.5_LANG.tar.xz
+  169  cd tor-browser_LANG
+  170  ./start-tor-browser.desktop
+  171  tar -xvJf tor-browser-linux32-6.0.5_LANG.tar.xz
+  172  cd tor-browser_LANG
+  173  tar -xvJf tor-browser-linux32-6.0.5_LANG.tar.xz
+  174  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+  175  sudo add-apt-repository "$(wget -qO- https://packages.microsoft.com/config/ubuntu/18.04/mssql-server-2017.list)"
+  176  sudo apt-get update
+  177  sudo apt-get install -y mssql-server
+  178  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo apt 2
+  179  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -2
+  180  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo apt-2 -
+  181  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+  182  sudo apt 2 wget -qO- https://packages.microsoft.com/keys/microsoft.asc 
+  183  sudo apt wget -qO- https://packages.microsoft.com/keys/microsoft.asc 2
+  184  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo apt2
+  185  wget -qO- https://packages.microsoft.com/keys/microsoft.asc 2
+  186  sudo add-apt-repository "$(wget -qO- https://packages.microsoft.com/config/ubuntu/18.04/mssql-server-2017.list)"
+  187  sudo apt-get update
+  188  sudo apt-get -y upgrade
+  189  sudo wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+  190  sudo add-apt-repository "$(wget -qO- https://packages.microsoft.com/config/ubuntu/18.04/mssql-server-2019.list)"
+  191  sudo apt update
+  192  sudo apt install mssql-server
+  193  sudo /opt/mssql/bin/mssql-conf setup
+  194  curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+  195  curl https://packages.microsoft.com/config/ubuntu/19.10/prod.list > /etc/apt/sources.list.d/mssql-release.list
+  196  sudo apt update 
+  197  sudo ACCEPT_EULA=Y apt install mssql-tools unixodbc-dev
+  198  sudo apt update 
+  199  sudo ACCEPT_EULA=Y apt install mssql-tools unixodbc-dev
+  200  sudo snap install skype --classic
+  201  sudo apt  install skype --classic
+  202  sudo apt install skype
+  203  sudo openvpn --config Downloads/vpngate_public-vpn-165.opengw.net_tcp_443.ovpn 
+  204  ssh root@10.90.105.113
+  205  sudo openvpn --config Downloads/vpngate_public-vpn-165.opengw.net_tcp_443.ovpn 
+  206  systemctl status mssql-server.service 
+  207  curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+  208  sudo apt instal curl
+  209  ssh khalil@10.90.105.113
+  210  ssh root@10.90.105.113
+  211  ssh khalil@10.90.105.113
+  212  ssh root@10.90.105.113
+  213  ssh mdkhalil@10.90.105.113
+  214  systemctl status mssql-server.service 
+  215  ssh root@10.90.105.113
+  216  upwork_5.4.2.3_amd64.deb
+  217  run upwork_5.4.2.3_amd64.deb
+  218  sudo dpkg -i upwork_5.4.2.3_amd64.deb
+  219  sudo apt-get install -f
+  220  $
+  221  sudo tar -xzf ideaIU.tar.gz -C /opt
+  222  sudo snap install intellij-idea-educational --classic
+  223  sudo apt install intellij-idea-educational --classic
+  224  sudo apt install intellij-idea-ultimate --classi
+  225  sudo apt install intellij-idea-ultimate
+  226  sudo snap install intellij-idea-ultimate --classic
+  227  sudo apt install intellij-idea-ultimate --classic
+  228  sudo apt update
+  229  sudo apt -y install default-jdk default-jre
+  230  java -version
+  231  sudo apt -y install wget
+  232  wget https://download.jetbrains.com/idea/ideaIC-2020.1.1.tar.gz
+  233  tar xvf ideaIC-2020.1.1.tar.gz
+  234  sudo mv idea-IC-201.7223.91 /opt/idea
+  235  /opt/idea/bin/idea.sh
+  236  ssh root@10.90.105.113
+  237  ssh root@10.90.105.115
+  238  ssh root@10.90.105.113
+  239  sudo openvpn --config Downloads/vpngate_public-vpn-165.opengw.net_tcp_443.ovpn 
+  240  ssh root@10.90.105.113
+  241  php install.php --help
+  242  ssh root@10.90.105.113
+  243  sudo apt-get install playonlinux samba winbind
+  244  ssh root@10.90.105.113
+  245  s
+  246  print
+  247  ls - la
+  248  ls -la
+  249  sudo snap install pycharm-community --classic
+  250  sudo apt install pycharm-community --classic
+  251  sudo apt install pycharm
+  252  sudo apt snap
+  253  sudo apt snapd
+  254  snap version
+  255  sudo apt install snapd
+  256  sudo snap install pycharm-community --classic
+  257  pycharm-community
+  258  pycharm-community/snap/bin/pycharm-community
+  259  cd /snap/bin/pycharm-community
+  260  cd /snap/bin
+  261  ls
+  262  cd /snap/bin/pycharm-community
+  263  pycharm-community
+  264  cd
+  265  sudo snap install clion --classic
+  266  /snap/bin/pycharm-community
+  267  /snap/bin/clion
+  268  sudo apt update
+  269  sudo openvpn --config Downloads/vpngate_public-vpn-165.opengw.net_tcp_443.ovpn 
+  270  ssh root@10.90.105.115
+  271  ssh root@10.90.105.113
+  272  whoami
+  273  man whoami
+  274  less
+  275  man whoami
+  276  ls
+  277  mkdir~/week1
+  278  gedit <week1>
+  279  desktop
+  280  cd /desktop
+  281  ls
+  282  cd desktop
+  283  cd Desktop
+  284  mkdir week1
+  285  cd week1
+  286  cd.
+  287  cd .
+  288  cd /
+  289  cd
+  290  cd / Desktop
+  291  cd /Desktop
+  292  cd Desktop
+  293  mkdir os/week1
+  294  mkdir os
+  295  cd /os
+  296  ls
+  297  cd /os
+  298  ls
+  299  cd /os
+  300  cd os
+  301  mkdir week1
+  302  cd week1
+  303  cd ~/week1
+  304  cd
+  305  ls
+  306  cd Desktop/os/week1/
+  307  ls
+  308  ls -l /usr/bin/"gcc" >/home/khalil/Desktop/os/week1/
+  309  ls -l /usr/bin/"gcc" >/home/khalil/Desktop/os/week1/ex.txt
+  310  history > ex2.txt
+  311  sh ex3.sh
+  312  mkdir sh ex3.sh
+  313  ls
+  314  sh ex3.sh
+  315  sleep 3
+  316  sh ex3.sh
+  317  nano ex3.sh
+  318  ex3.sh
+  319  ls
+  320  cd ex3.sh
+  321  ls
+  322  cd .
+  323  cd ./
+  324  cd ..
+  325  mkdir aa
+  326  cd aa
+  327  cd ..
+  328  mkdir a.sh
+  329  cd a.sh
+  330  nano
+  331  ls
+  332  cd bb.sh
+  333  cd bb
+  334  ls
+  335  bb
+  336  nano
+  337  cd os
+  338  cd Desktop/
+  339  cd os/
+  340  cd week1
+  341  mkdir Excersise 1
+  342  mkdir Excersise1
+  343  cd Excersise1
+  344  ls -l /usr/bin/"gcc" >/home/khalil/Desktop/os/week1/Excersise1/ex.txt
+  345  ls
+  346  ls -r
+  347  nano ex
+  348  nano ex.txt 
+  349  ls
+  350  mkdir os
+  351  cd os
+  352  mkdir week1
+  353  cd week1
+  354  mkdir Excersise1
+  355  ls -l - r /usr/bin/"gcc" >/home/khalil/Desktop/os/week1/Excersise1/ex.txt
+  356  ls -l -r /usr/bin/"gcc" >/home/khalil/Desktop/os/week1/Excersise1/ex.txt
+  357  ls -l -r /usr/bin/"gcc" >/home/os/week1/ex1.txt
+  358  ls -l -r /usr/bin/"gcc" >home/os/week1/ex1.txt
+  359* ls -l -r /usr/bin/"gcc" >./ex1.sh
+  360  touch ex1.sh
+  361  history > ex2.txt
