@@ -6,7 +6,16 @@ struct Node {
   struct Node* next;
 };
 
+void initialize(struct Node** head, int new_item) 
+{
+    struct Node* new_node = (struct Node*) malloc(sizeof(struct Node));
 
+    new_node->item  = new_item;
+
+    new_node->next = NULL;
+
+    *head = new_node;
+}
 void insert_After(struct Node* node, int data) {
   if (node == NULL) {
     printf("the given previous node cannot be NULL");
@@ -22,18 +31,14 @@ void insert_After(struct Node* node, int data) {
 /*void insertAtEnd(struct Node** ref, int data) {
   struct Node* new_node = (struct Node*)malloc(sizeof(struct Node));
   struct Node* last = *ref;
-
   new_node->item = data;
   new_node->next = NULL;
-
   if (*ref == NULL) {
     *ref = new_node;
     return;
   }
-
   while (last->next != NULL)
     last = last->next;
-
   last->next = new_node;
   return;
 }*/
@@ -67,13 +72,13 @@ void print_List(struct Node* node) {
 
 int main() {
   struct Node* head = NULL;
-
-  insert_After(head->next, 5);
+  initialize(&head,12);
+  insert_After(head, 5);
 
   printf("Linked list: ");
   print_List(head);
 
   printf("\nAfter deleting an element: ");
-  delete_Node(&head, 3);
+  delete_Node(&head, 12);
   print_List(head);
 }
