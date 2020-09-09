@@ -1,4 +1,4 @@
-N=$1;
-for ((i=0; i<$N; i++)); do
-	./ex1
-done
+for f in {1..10}
+    do
+    ./a.exe
+    done
