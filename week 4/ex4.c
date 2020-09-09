@@ -2,7 +2,7 @@
 #include <stdlib.h>
 void read_command (char *command)
 {
-  fget("%s",command);
+  fgets("%s",command);
 }
 int main()
 {
