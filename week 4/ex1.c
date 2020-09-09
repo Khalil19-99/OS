@@ -27,4 +27,4 @@ int main(void)
 
 // Each line in the output will be depending on the PID values, and they are not the same, so each line in the output and the order of them will be different
 // OS will control the schedule of the different processes.
-// What does the OS do? it copies memory only when a program will write into it.
+// What does the OS do? it copies memory when a program will write into it.
