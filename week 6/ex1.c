@@ -6,7 +6,7 @@ void swap(int *a, int *b) {
   *b = t;
 }
 
-int main() {
+void main() {
 
   int burst_time[32] = {0}, arrival_time[32] = {0};
   int complete_time[32] = {0}, turnaround_time[32] = {0},
@@ -63,6 +63,4 @@ int main() {
 
   printf("\nAverage turnaround time = %f\n", total_turnaround_time / n);
   printf("Averag waiting time = %f\n", total_waiting_time / n);
-
-  return 0;
 }
