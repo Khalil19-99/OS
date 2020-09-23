@@ -99,7 +99,7 @@ void find_all_time(Process current_processes[], int n) {
   printf("average waiting time = %f", total_waiting_time / n);
 }
 
-int main() {
+void main() {
   int n;
   printf("Number of processes: ");
   scanf("%d", &n);
@@ -139,5 +139,4 @@ int main() {
 
   // proceed with data
   find_all_time(current_processes, n);
-  return 0;
 }
