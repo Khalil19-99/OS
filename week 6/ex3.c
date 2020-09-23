@@ -7,7 +7,7 @@ void swap(int *a, int *b) {
   *b = temp;
 }
 
-int main() {
+void main() {
 
   int j, n, count;
   int time, remain, time_quantum;
@@ -83,6 +83,5 @@ int main() {
   printf("\nAvg turnaround time = %f\n", turnaround_time * 1.0 / n);
   printf("Avg waiting time = %f", waiting_time * 1.0 / n);
 
-  return 0;
 }
 
