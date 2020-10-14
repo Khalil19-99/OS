@@ -1,0 +1,3 @@
+When there are too many different pages, the mess rate will be too high, but when we have large number of identical pages, the hit rate will be too high and increasing
+as a conclosion, in order to increase the hit rate we need to add more equal page numbers and place them as close as possible.
+
