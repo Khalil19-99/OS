@@ -1,0 +1,9 @@
+-rw-rw-r-- 1 khalil khalil 0 Oct 21 01:53 _ex3.txt
+
+-rwxrw-rwx 1 khalil khalil 0 Oct 21 01:53 _ex3.txt
+
+-rwxrwxrwx 1 khalil khalil 0 Oct 21 01:53 _ex3.txt
+
+#660 : each 6 is (4+2) 110 (read and write) permissions for owner and group
+#775 : each 7 is (4+2+1) 111 (read,write and excute) permissions for owner and group, but 5 is (4+1) 101 (read and excute) permision for the other
+#777 : each 7 is (4+2+1) 111 (read,write and excute) permissions for everyone

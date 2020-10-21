@@ -1,0 +1,11 @@
+total 4
+19401404 -rw-rw-r-- 3 khalil khalil   0 Oct 20 20:23 _ex1_1.txt
+19401404 -rw-rw-r-- 3 khalil khalil   0 Oct 20 20:23 _ex1_2.txt
+19401404 -rw-rw-r-- 3 khalil khalil   0 Oct 20 20:23 _ex1.txt
+19401405 -rw-rw-r-- 1 khalil khalil 255 Oct 20 20:30 ex1.txt
+18747279 -rw-rw-r-- 2 khalil khalil   0 Oct 20 20:31 _ex2.txt
+
+
+../week1/file.txt
+../week10/_ex2.txt
+
