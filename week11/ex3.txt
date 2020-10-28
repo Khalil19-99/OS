@@ -1,0 +1,13 @@
+
+The output of Program 1:
+
+Hello
+Hello
+
+The output of program 2:
+
+Hello
+
+Printing a line buffer ends when it sees a newline ('\n') character.
+So, in the first output we see the "Hello" twice since "Hello" still in the buffer
+and in the second output only once (since '\n' was set).
