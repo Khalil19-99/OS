@@ -1,0 +1,24 @@
+NO SYNC 1M
+
+./copy 16M 16m  0,00s user 0,02s system 95% cpu 0,019 total
+./copy 64M 64m  0,00s user 0,06s system 93% cpu 0,059 total
+./copy 128M 128m  0,00s user 0,10s system 98% cpu 0,105 total
+
+NO SYNC 5M
+
+./copy 16M 16m  0,00s user 0,02s system 97% cpu 0,016 total
+./copy 64M 64m  0,00s user 0,08s system 96% cpu 0,090 total
+./copy 128M 128m  0,00s user 0,08s system 99% cpu 0,082 total
+
+SYNC 1M
+./copy 16M 16m  0,00s user 0,05s system 27% cpu 0,190 total
+./copy 64M 64m  0,00s user 0,17s system 25% cpu 0,674 total
+./copy 128M 128m  0,00s user 0,35s system 25% cpu 1,372 total
+
+SYNC 5M
+./copy 16M 16m  0,00s user 0,04s system 55% cpu 0,081 total
+./copy 64M 64m  0,00s user 0,07s system 43% cpu 0,154 total
+./copy 128M 128m  0,00s user 0,18s system 47% cpu 0,386 total
+
+This means that when forced sync is off, large chunks will be transferred faster (due to disk cache).
+And with forced sync enabled, small chunks will be transferred faster, because large chunks are flushed to disk slower.
